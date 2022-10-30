@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+
+import NavbarComponent from '../Components/NavbarComponent';
 
 const Cars = () => {
-  return (
-    <div>Cars</div>
-  )
-}
+    return (
+        // test
+        <NavbarComponent />
+    );
+};
 
-export default Cars
+export default Cars;
