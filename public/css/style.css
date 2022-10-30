@@ -1,6 +1,6 @@
 :root {
     scroll-behavior: smooth;
-    scroll-padding-top: 70px;
+    scroll-padding-top: 68px;
 }
 
 body {
@@ -34,8 +34,8 @@ p {
 }
 
 .btn-success {
-    background-color: #5cb85f;
-    border: none;
+    background-color: #5cb85f !important;
+    border: none !important;
 }
 
 .navbar-link {
@@ -48,6 +48,165 @@ p {
     background-color: #f1f3ff;
 }
 
+#hero-section {
+    margin-top: 61px;
+}
+
+.hero-text {
+    justify-content: center;
+    padding: 0 1rem 0 7rem !important;
+}
+
+.why-us-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-us-text p {
+    margin: 0;
+}
+
+.why-us-text img {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+}
+
+.mycard {
+    /* margin-top: 1rem; */
+    margin: 1rem 0rem;
+}
+
+.card-body {
+    border: solid 1px #d0d0d0;
+    border-radius: 8px;
+    margin: 0 1rem;
+    padding: 1rem !important;
+    height: 100%;
+}
+
+.cta-banner {
+    text-align: center;
+    color: #fff;
+    background-color: #0d28a6;
+    border-radius: 13px;
+}
+
+.footer {
+    margin-top: auto;
+    /* background-color: #f1f3ff; */
+}
+
+.footer-child {
+    margin: 1rem 0;
+}
+
+.footer-child ul {
+    padding: 0;
+}
+.sosmed-icon {
+    margin-right: 16px;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #212529;
+    font-size: 14px;
+}
+
+.navigation li a:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
+/* testimonial carousel  */
+
+.swiper-wrapper {
+    margin-bottom: 3rem;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f1f3ff;
+
+    padding: 3rem;
+    margin: 0 16px;
+
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.rating-stars {
+    margin-bottom: 1rem;
+}
+
+/* carousel buttons */
+/* <span class="next"></span> */
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: url('../images/icons/left arrow.svg') !important;
+    font-size: 24px !important;
+    line-height: 0 !important;
+    transform: translateX(-1px) !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    z-index: 10;
+    top: auto !important;
+    bottom: 0 !important;
+    border: 1px solid #c4c4c4 !important;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50% !important;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-prev {
+    left: auto !important;
+    right: 50% !important;
+    margin: 0 1rem;
+}
+
+.swiper-button-next {
+    left: 50% !important;
+    right: auto !important;
+    margin: 0 1rem;
+    transform: rotate(180deg);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #5cb85f;
+    border: none !important;
+    transition: all 0.5s ease-out;
+}
+
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+    content: url('../images/icons/left arrow white.svg') !important;
+}
+
+.accordion-item {
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #d4d4d4 !important;
+}
+
+.accordion-item:not(:first-of-type) {
+    border: 1px solid #d4d4d4 !important;
+}
+
 @media screen and (max-width: 768px) {
     .offcanvas {
         max-width: 50% !important;
@@ -55,5 +214,25 @@ p {
 
     .navbar-link {
         align-items: flex-start;
+    }
+
+    .hero-text {
+        padding: 1rem !important;
+    }
+
+    .swiper-slide {
+        flex-direction: column;
+    }
+
+    .carousel-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 !important;
+    }
+
+    .carousel-image {
+        margin: 1rem;
     }
 }
