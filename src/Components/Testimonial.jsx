@@ -28,7 +28,7 @@ const Testimonial = () => {
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper" centeredSlides={true} loop={true} slidesPerView="auto">
                     <SwiperSlide>
                         <div className="carousel-image">
-                            <img src={userfoto1} alt="testimonial user image" />
+                            <img src={userfoto1} alt="testimonial user avatar" />
                         </div>
                         <div className="carousel-text ms-5">
                             <div className="rating-stars">
@@ -50,7 +50,7 @@ const Testimonial = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="carousel-image">
-                            <img src={userfoto2} alt="testimonial user image" />
+                            <img src={userfoto2} alt="testimonial user avatar" />
                         </div>
                         <div className="carousel-text ms-5">
                             <div className="rating-stars">
@@ -72,7 +72,7 @@ const Testimonial = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="carousel-image">
-                            <img src={userfoto1} alt="testimonial user image" />
+                            <img src={userfoto1} alt="testimonial user avatar" />
                         </div>
                         <div className="carousel-text ms-5">
                             <div className="rating-stars">
@@ -94,7 +94,7 @@ const Testimonial = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="carousel-image">
-                            <img src={userfoto2} alt="testimonial user image" />
+                            <img src={userfoto2} alt="testimonial user avatar" />
                         </div>
                         <div className="carousel-text ms-5">
                             <div className="rating-stars">

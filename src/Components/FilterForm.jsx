@@ -3,7 +3,7 @@ import { Button, Form, Container, Row, Col } from 'react-bootstrap';
 import { useState } from 'react';
 
 const FilterForm = (props) => {
-    const [tipeDriver, setTipeDriver] = useState('');
+    // const [tipeDriver, setTipeDriver] = useState('');
     const [date, setDate] = useState(new Date());
     const [time, setTime] = useState('');
     const [capacity, setCapacity] = useState(0);
@@ -20,7 +20,7 @@ const FilterForm = (props) => {
                         <Col xs={12} sm={6} md={3}>
                             <Form.Group>
                                 <Form.Label>Tipe Driver</Form.Label>
-                                <Form.Select onChange={(e) => setTipeDriver(e.target.value)}>
+                                <Form.Select>
                                     <option>Pilih tipe driver</option>
                                     <option value="Dengan Sopir">Dengan Sopir</option>
                                     <option value="Tanpa Sopir (Lepas Kunci)">Tanpa Sopir (Lepas Kunci)</option>
