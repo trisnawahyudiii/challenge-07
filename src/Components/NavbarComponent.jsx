@@ -10,7 +10,7 @@ function NavbarComponent() {
         <>
             <Navbar key="md" expand="md" className="fixed-top">
                 <Container fluid="md">
-                    <Navbar.Brand href="#hero-section">
+                    <Navbar.Brand href="/">
                         <Image src="images/logo.png" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />

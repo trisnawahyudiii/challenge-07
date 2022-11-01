@@ -14,7 +14,7 @@ const Home = () => {
         // test
         <>
             <NavbarComponent />
-            <Hero />
+            <Hero showButton={false}/>
             <OurServices />
             <WhyUs />
             <Testimonial />

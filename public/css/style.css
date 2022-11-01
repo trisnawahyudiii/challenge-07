@@ -207,6 +207,37 @@ p {
     border: 1px solid #d4d4d4 !important;
 }
 
+.filter-form {
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.form-label {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.form-container {
+    position: absolute;
+    top: -50px;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-cari-mobil {
+    display: flex;
+    align-items: flex-end;
+}
+
+.car-card-container {
+    margin-top: 220px;
+}
+
 @media screen and (max-width: 768px) {
     .offcanvas {
         max-width: 50% !important;
