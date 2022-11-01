@@ -304,4 +304,9 @@ p {
     .carousel-image {
         margin: 1rem;
     }
+
+    .car-card-container {
+        margin-top: 300px;
+        min-height: 80px;
+    }
 }

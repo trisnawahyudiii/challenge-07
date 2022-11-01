@@ -11,7 +11,7 @@ const CarAPI = (props) => {
     console.log(props.data);
     return (
         <>
-            <Col lg={4} md={4} sm={12}>
+            <Col xl={3} lg={4} sm={6} xs={12} >
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={props.data.image} />
                     <Card.Body className="car-card-body">
