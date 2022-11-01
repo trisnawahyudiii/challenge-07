@@ -27,11 +27,11 @@ const Testimonial = () => {
                 {/* dibawah ini swiper container */}
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper" centeredSlides={true} loop={true} slidesPerView="auto">
                     <SwiperSlide>
-                        <div class="carousel-image">
+                        <div className="carousel-image">
                             <img src={userfoto1} alt="testimonial user image" />
                         </div>
-                        <div class="carousel-text ms-5">
-                            <div class="rating-stars">
+                        <div className="carousel-text ms-5">
+                            <div className="rating-stars">
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
@@ -39,21 +39,21 @@ const Testimonial = () => {
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
                             </div>
-                            <div class="carousel-desc">
+                            <div className="carousel-desc">
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
                                     veritatis ut!
                                 </p>
-                                <h3 class="username">Trisna Wahyudi 20, Bali</h3>
+                                <h3 className="username">Trisna Wahyudi 20, Bali</h3>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div class="carousel-image">
+                        <div className="carousel-image">
                             <img src={userfoto2} alt="testimonial user image" />
                         </div>
-                        <div class="carousel-text ms-5">
-                            <div class="rating-stars">
+                        <div className="carousel-text ms-5">
+                            <div className="rating-stars">
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
@@ -61,21 +61,21 @@ const Testimonial = () => {
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
                             </div>
-                            <div class="carousel-desc">
+                            <div className="carousel-desc">
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
                                     veritatis ut!
                                 </p>
-                                <h3 class="username">Yulia Dewi 20, Bali</h3>
+                                <h3 className="username">Yulia Dewi 20, Bali</h3>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div class="carousel-image">
+                        <div className="carousel-image">
                             <img src={userfoto1} alt="testimonial user image" />
                         </div>
-                        <div class="carousel-text ms-5">
-                            <div class="rating-stars">
+                        <div className="carousel-text ms-5">
+                            <div className="rating-stars">
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
@@ -83,21 +83,21 @@ const Testimonial = () => {
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
                             </div>
-                            <div class="carousel-desc">
+                            <div className="carousel-desc">
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
                                     veritatis ut!
                                 </p>
-                                <h3 class="username">Trisna Wahyudi 20, Bali</h3>
+                                <h3 className="username">Trisna Wahyudi 20, Bali</h3>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div class="carousel-image">
+                        <div className="carousel-image">
                             <img src={userfoto2} alt="testimonial user image" />
                         </div>
-                        <div class="carousel-text ms-5">
-                            <div class="rating-stars">
+                        <div className="carousel-text ms-5">
+                            <div className="rating-stars">
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
@@ -105,12 +105,12 @@ const Testimonial = () => {
                                 <img src={star} alt="Rating stars" />
                                 <img src={star} alt="Rating stars" />
                             </div>
-                            <div class="carousel-desc">
+                            <div className="carousel-desc">
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam obcaecati optio minima facilis quaerat, quis, culpa harum deleniti ea quisquam alias reprehenderit cum non nam fugiat corrupti
                                     veritatis ut!
                                 </p>
-                                <h3 class="username">Yulia Dewi 20, Bali</h3>
+                                <h3 className="username">Yulia Dewi 20, Bali</h3>
                             </div>
                         </div>
                     </SwiperSlide>

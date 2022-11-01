@@ -9,10 +9,7 @@ const FilterForm = (props) => {
     const [capacity, setCapacity] = useState(0);
 
     const handleSubmit = () => {
-        console.log(tipeDriver, date, time, capacity);
-
         const dateTime = new Date(`${date} ${time}`);
-
         props.onSubmit(dateTime, capacity);
     };
     return (
@@ -49,7 +46,7 @@ const FilterForm = (props) => {
                             </Form.Group>
                         </Col>
                         <Col xs={12} sm={6} md={2} className="btn-cari-mobil-container">
-                            <Button variant="success" className='btn-cari-mobil' onClick={handleSubmit}>
+                            <Button variant="success" className="btn-cari-mobil" onClick={handleSubmit}>
                                 Cari Mobil
                             </Button>
                         </Col>

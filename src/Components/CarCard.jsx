@@ -8,10 +8,9 @@ const CarAPI = (props) => {
 
     const rentCost = rupiah(props.data.rentPerDay);
 
-    console.log(props.data);
     return (
         <>
-            <Col xl={3} lg={4} sm={6} xs={12} >
+            <Col xl={3} lg={4} sm={6} xs={12}>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={props.data.image} />
                     <Card.Body className="car-card-body">
@@ -25,13 +24,13 @@ const CarAPI = (props) => {
 
                         <div>
                             <Card.Text>
-                                <i class="bi bi-people me-2"></i> {props.data.capacity}
+                                <i className="bi bi-people me-2"></i> {props.data.capacity}
                             </Card.Text>
                             <Card.Text>
-                                <i class="bi bi-gear me-2"></i> {props.data.transmission}
+                                <i className="bi bi-gear me-2"></i> {props.data.transmission}
                             </Card.Text>
                             <Card.Text>
-                                <i class="bi bi-calendar4 me-2"></i> {props.data.year}
+                                <i className="bi bi-calendar4 me-2"></i> {props.data.year}
                             </Card.Text>
                             <div className="d-grid grap-2">
                                 <Button variant="success" className="car-card-button">

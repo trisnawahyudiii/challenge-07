@@ -8,7 +8,7 @@ const Banner = () => {
                 <h1>Sewa Mobil di Bali Sekarang</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="/cars">
-                    <button class="btn btn-success">Mulai Sewa Mobil</button>
+                    <button className="btn btn-success">Mulai Sewa Mobil</button>
                 </a>
             </div>
         </Container>

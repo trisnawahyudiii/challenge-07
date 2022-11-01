@@ -18,7 +18,6 @@ const Cars = () => {
         fetch('https://raw.githubusercontent.com/fnurhidayat/probable-garbanzo/main/data/cars.min.json')
             .then((response) => response.json())
             .then((data) => {
-                console.table(data);
                 const newData = populateCars(data);
                 setCars(newData);
             })
@@ -49,7 +48,6 @@ const Cars = () => {
 
     const filterCar = (dateTime, capacity) => {
         const result = cars.filter((car) => car.capacity >= capacity && car.availableAt <= dateTime);
-        console.log(result);
         setFilteredCar(result);
         setSearched(true);
     };
