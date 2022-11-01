@@ -7,10 +7,12 @@ import Footer from '../Components/Footer';
 import Hero from '../Components/Hero';
 import CarCard from '../Components/CarCard';
 import FilterForm from '../Components/FilterForm';
+import SearchNotFound from '../Components/SearchNotFound';
 
 const Cars = () => {
     const [cars, setCars] = useState([]);
     const [filteredCar, setFilteredCar] = useState([]);
+    const [searched, setSearched] = useState(false);
 
     useEffect(() => {
         fetch('https://raw.githubusercontent.com/fnurhidayat/probable-garbanzo/main/data/cars.min.json')
@@ -49,16 +51,17 @@ const Cars = () => {
         const result = cars.filter((car) => car.capacity >= capacity && car.availableAt <= dateTime);
         console.log(result);
         setFilteredCar(result);
+        setSearched(true);
     };
 
     return (
         // test
         <>
             <NavbarComponent />
-            <Hero showButton={true} />
+            <Hero hideButton={true} />
             <FilterForm onSubmit={filterCar} />
-            <Container fluid="md">
-                <Row className="car-card-container">{filteredCar.length === 0 ? 'kontol' : filteredCar.map((car) => <CarCard key={car.id} data={car} />)}</Row>
+            <Container fluid="md" className="car-card-container">
+                {searched ? <Row>{filteredCar.length === 0 ? <SearchNotFound /> : filteredCar.map((car) => <CarCard key={car.id} data={car} />)}</Row> : ''}
             </Container>
             <Footer />
         </>

@@ -229,13 +229,51 @@ p {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
-.btn-cari-mobil {
+.form-select,
+.form-control {
+    border-radius: 0 !important;
+}
+
+.btn-cari-mobil-container {
     display: flex;
     align-items: flex-end;
 }
 
+.btn-cari-mobil {
+    border-radius: 0 !important;
+}
+
 .car-card-container {
-    margin-top: 220px;
+    margin-top: 80px;
+    min-height: 50px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15) !important;
+    margin: 1rem;
+    min-height: 532px;
+}
+
+.card-img-top {
+    height: 190px;
+    object-fit: cover;
+}
+
+.car-card-body {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-btn-container {
+    position: relative;
+}
+
+.car-card-button {
+    margin-top: auto !important;
+    border-radius: 0 !important;
 }
 
 @media screen and (max-width: 768px) {

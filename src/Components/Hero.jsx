@@ -13,7 +13,7 @@ const Hero = (props) => {
                     <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
                     <div>
                         <a href="/cars">
-                            <button class="btn btn-success" hidden={props.showButton}>
+                            <button class="btn btn-success" hidden={props.hideButton}>
                                 Mulai Sewa Mobil
                             </button>
                         </a>
